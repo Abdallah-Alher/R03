@@ -6,7 +6,7 @@ comme un terminal simplifié, compatible avec Windows (via `system()`).
 
 ---
 
-## 🎯 Objectifs pédagogiques
+##  Objectifs pédagogiques
 
 - Appliquer les compétences en **langage C** acquises pendant la piscine
 - Travailler en équipe sur un projet modulaire
@@ -16,7 +16,7 @@ comme un terminal simplifié, compatible avec Windows (via `system()`).
 
 ---
 
-## ⚙️ Fonctionnalités du Mini Shell
+##  Fonctionnalités du Mini Shell
 
 - ✅ Affiche un **prompt personnalisé** : `mini-shell_rush-9> `
 - ✅ Lit une ligne de commande entrée par l'utilisateur
@@ -28,7 +28,7 @@ comme un terminal simplifié, compatible avec Windows (via `system()`).
 
 ---
 
-## 📁 Structure du projet
+## Structure du projet
 
 mini-shell/
 ── main.c # Point d’entrée du programme
@@ -43,18 +43,18 @@ mini-shell/
 
 ---
 
-## 👥 Répartition de l'équipe Rush-9
+##  Répartition de l'équipe Rush-9
 
 | Membre         | Rôle                                                    |
 |----------------|----------------------------------------------------------|
-| **Ismael_K**   | 🧠 `main.c` – boucle principale, intégration et coordination |
-| **ABDALLAH_AM**| ✂️ `parser.c` & `parser.h` et README.md – découpage des commandes en tokens |
-| **Oudou_M**    | ⚙️ `executor.c` & `executor.h` – exécution via `system()` |
-| **Yacine_A**   | 🧰 `utils.c` & `utils.h` – nettoyage des chaînes (espaces) |
+| **Ismael_K**   |  `main.c` – boucle principale, intégration et coordination |
+| **ABDALLAH_AM**|  `parser.c` & `parser.h` et README.md – découpage des commandes en tokens |
+| **Oudou_M**    |  `executor.c` & `executor.h` – exécution via `system()` |
+| **Yacine_A**   |  `utils.c` & `utils.h` – nettoyage des chaînes (espaces) |
 
 ---
 
-## 🧪 Compilation
+##  Compilation
 
 > 📌 Pré-requis : avoir installé [MinGW](https://www.mingw-w64.org/) ou un compilateur GCC pour Windows.
 
@@ -63,3 +63,17 @@ Dans un terminal (cmd, Git Bash, PowerShell...) :
 ```bash
 gcc main.c parser.c executor.c utils.c -o minishell
 ./minishell.exe
+
+
+## Exemple d’utilisation
+shell
+Copier
+Modifier
+mini-shell_rush-9>     echo    Hello World
+Hello World
+
+mini-shell_rush-9> dir
+[Affiche les fichiers du dossier courant]
+
+mini-shell_rush-9>     exit
+Au revoir !
