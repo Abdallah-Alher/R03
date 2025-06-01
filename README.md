@@ -1,7 +1,8 @@
 # 💻 Mini Shell – Rush-9 (Compatible Windows)
 
 Ce projet est le résultat du **dernier Rush** de la piscine Codeloccol 2025.  
-Nous avons développé un **mini shell** en langage C, capable de lire, analyser, et exécuter des commandes système, comme un terminal simplifié, compatible avec Windows (via `system()`).
+Nous avons développé un **mini shell** en langage C, capable de lire, analyser, et exécuter des commandes système, 
+comme un terminal simplifié, compatible avec Windows (via `system()`).
 
 ---
 
@@ -47,19 +48,18 @@ mini-shell/
 | Membre         | Rôle                                                    |
 |----------------|----------------------------------------------------------|
 | **Ismael_K**   | 🧠 `main.c` – boucle principale, intégration et coordination |
-| **ABDALLAH_AM**| ✂️ `parser.c` & `parser.h` – découpage des commandes en tokens |
+| **ABDALLAH_AM**| ✂️ `parser.c` & `parser.h` et README.md – découpage des commandes en tokens |
 | **Oudou_M**    | ⚙️ `executor.c` & `executor.h` – exécution via `system()` |
 | **Yacine_A**   | 🧰 `utils.c` & `utils.h` – nettoyage des chaînes (espaces) |
 
 ---
 
-## 🧪 Compilation sous Windows
+## 🧪 Compilation
 
 > 📌 Pré-requis : avoir installé [MinGW](https://www.mingw-w64.org/) ou un compilateur GCC pour Windows.
 
 Dans un terminal (cmd, Git Bash, PowerShell...) :
 
 ```bash
-gcc main.c parser.c executor.c utils.c -o minishell.exe
-./minishell.exe
+gcc main.c parser.c executor.c utils.c -o minishell
 ./minishell.exe
