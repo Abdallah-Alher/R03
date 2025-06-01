@@ -31,14 +31,14 @@ comme un terminal simplifié, compatible avec Windows (via `system()`).
 ## 📁 Structure du projet
 
 mini-shell/
-├── main.c # Point d’entrée du programme
-├── parser.c # Découpage de la commande en tokens
-├── parser.h
-├── executor.c # Recomposition et exécution de la commande
-├── executor.h
-├── utils.c # Suppression des espaces inutiles
-├── utils.h
-└── README.md # Documentation du projet
+── main.c # Point d’entrée du programme
+── parser.c # Découpage de la commande en tokens
+── parser.h
+── executor.c # Recomposition et exécution de la commande
+── executor.h
+── utils.c # Suppression des espaces inutiles
+── utils.h
+── README.md # Documentation du projet
 
 
 ---
