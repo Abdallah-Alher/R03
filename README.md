@@ -66,9 +66,7 @@ gcc main.c parser.c executor.c utils.c -o minishell
 
 
 ## Exemple d’utilisation
-shell
-Copier
-Modifier
+
 mini-shell_rush-9>     echo    Hello World
 Hello World
 
